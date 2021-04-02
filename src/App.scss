@@ -41,7 +41,7 @@ h2 {
 }
 
 .App-logo {
-  width: 200px;
+  width: 120px;
   display: flex;
   justify-content: flex-start;
 }
@@ -50,9 +50,9 @@ h2 {
   background-color: #000;
   height: 100vh;
   @media (min-width:768px){
-    background-image: url(./assets/imgs/JS.png), url(./assets/imgs/css.png), url(./assets/imgs/html.png);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 47vw 24vh, 85vw 30vh, 80vw 75vh;
+    background-image: url(./assets/imgs/JS.png), url(./assets/imgs/css.png), url(./assets/imgs/html.png), url(./assets/imgs/react.svg), url(./assets/imgs/Sass.svg), url(./assets/imgs/php.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 47vw 24vh, 85vw 30vh, 80vw 75vh, 50vw 75vh, 40vw 50vh, 70vw 20vh;
     background-size: 4% 8%;
   }
 }

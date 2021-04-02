@@ -1,6 +1,6 @@
 import './About.scss'
 import React from 'react'
-import { CSSIcon, JSIcon, HTMLIcon, ReactIcon } from './svg/Svg'
+import { CSSIcon, JSIcon, HTMLIcon, ReactIcon, PhpIcon } from './svg/Svg'
 
 const aboutus = props =>
     <div className="about-us" id="about">
@@ -30,6 +30,7 @@ const aboutus = props =>
                         <li><JSIcon /></li>
                         <li><HTMLIcon /></li>
                         <li><ReactIcon /></li>
+                        <li><PhpIcon /></li>
                     </ul>
             </div>
            </div>

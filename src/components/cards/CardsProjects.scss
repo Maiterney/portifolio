@@ -37,10 +37,9 @@
             align-items: center;
             min-height: 135px;
             img {
-                // width: 95%;
-                max-width: 95%;
                 width: auto;
                 height: fit-content;
+                max-width: 175px;
             }
         }
         .card-content {
