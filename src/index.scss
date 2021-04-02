@@ -1,0 +1,14 @@
+.title {
+  padding-bottom: 5%;
+  text-align: start;
+}
+
+button {
+  &.btn.btn-first {
+    background: #23be53;
+    border-radius: 20px;
+    padding: 10px 45px;
+    font-weight: 700;
+    color: #fff;
+  }
+}

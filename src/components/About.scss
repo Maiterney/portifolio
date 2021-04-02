@@ -1,0 +1,77 @@
+.about-us {
+    padding: 10% 10%;
+    .about-description {
+        margin: 0 auto;
+        background: #000;
+        padding: 40px 40px 80px;
+        justify-content: space-between;
+        text-align: start;
+        border-radius: 10px;
+        &:before {
+            content: "";
+            height: 6vh;
+            width: 100%;
+            position: absolute;
+            background: #23be53;
+            bottom: 0;
+            left: 0;
+            border-radius: 0 0 10px 10px;
+        }
+        h2{
+            color: var(--color-name);
+            padding-bottom: 40px;
+            &::after {
+                top: 5%;
+                right: 0;
+            }
+        }
+        .box-content {
+            
+            justify-content: space-between;
+            @media (min-width:768px) {
+                display: flex;
+            }
+            .descriptions {
+                text-align: start;
+                color: #FFF;
+                @media(min-width:768px) {
+                    width: 40%;
+                }
+                .list-frameworks {
+                    list-style: none;
+                    li {
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 10px;
+                            background: var(--color-name);
+                            margin: 6px -4.5%;
+                        }
+                    }
+                }
+            }
+            .icons {
+                .list-icons {
+                    display: flex;
+                    list-style: none;
+                    padding: 0;
+                    @media (min-width: 768px) {
+                        flex-direction: column;
+                        justify-content: end;
+                    }
+                    li{
+                        padding: 0 0 20px;
+                        @media (max-width: 768px) {
+                            padding: 15px 20px 0 0;
+                        }
+                        svg {
+                            width: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

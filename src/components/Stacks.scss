@@ -1,0 +1,16 @@
+.stacks {
+    background-image: url('../assets/imgs/vector.png'), url('../assets/imgs/vector.png') ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 5em 8em, 60em 20em;
+    padding: 80px 10% 165px;
+    text-align: start;
+    .cards {
+        text-align: center;
+        padding: 0 3%;
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15%;
+        }
+    }
+}

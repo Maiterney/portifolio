@@ -1,0 +1,11 @@
+.projects {
+    background-image: url('../assets/imgs/vector.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: start;
+    padding: 5% 10%;
+    .cards-projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

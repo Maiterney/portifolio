@@ -1,0 +1,53 @@
+.card-stacks {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-image: linear-gradient( to bottom, #000 90%, #23be53 0);
+    margin: 0 0 15%;
+    &:nth-child(2) {
+        @media (min-width: 768px) {
+            margin-top: -15%;
+        }
+    }
+    @media (min-width: 768px) {
+        margin: 20px;
+        min-width: 300px;
+        max-height: 427px;
+    }
+    .card-header {
+        padding: 25% 0;
+        img {
+            min-width: 120px;
+            max-width: 120px;
+        }
+    }
+    .card-content {
+        ul{
+            list-style: none;
+            padding: 0 15% 10%;
+            li {
+                display: flex;
+                padding-bottom: 15px;
+                p {
+                    color: #fff;
+                    font-weight: 700;
+                }
+                img {
+                    width: 20px;
+                    color: var(--color-name)
+                }
+                span {
+                    padding-right: 25px;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        border-radius: 30px;
+                        margin: -2px -26px;
+                        height: 32px;
+                        width: 32px;
+                        border: 1px solid #177234;
+                    }
+                }
+            }
+        }
+    }
+}

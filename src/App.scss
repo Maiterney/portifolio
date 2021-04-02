@@ -1,0 +1,58 @@
+:root {
+  --bg-header: #060608;
+  --bg-content: #07080b;
+  --color-name: #23BE53;
+  --color-text: #E7DFDD;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-content) ;
+}
+
+h1 {
+  color: var(--color-name);
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  color: #fff;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #23BE53;
+    border-radius: 10px;
+    margin: -10px 10px;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.introduction-top {
+  background-color: #000;
+  height: 100vh;
+  @media (min-width:768px){
+    background-image: url(./assets/imgs/JS.png), url(./assets/imgs/css.png), url(./assets/imgs/html.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 47vw 24vh, 85vw 30vh, 80vw 75vh;
+    background-size: 4% 8%;
+  }
+}

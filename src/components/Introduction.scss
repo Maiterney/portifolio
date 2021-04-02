@@ -1,0 +1,57 @@
+.introduction {
+    text-align: start;
+    padding: 0 10%;
+    display: flex;
+    @media (min-width: 768px) {
+        justify-content: space-between;
+    }
+    h4 {
+        padding-bottom: 10%;
+        font-weight: 400;
+        color: #FFF;
+        padding-left: 3%;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 15px;
+            background-color: var(--color-name);
+            margin: 1% -3%;
+        }
+    }
+    p {
+        color: #FFF;
+        font-weight: 100;
+        line-height: 20px;
+        padding-bottom: 10%;
+    }
+    button {
+        a {
+            color: #FFF;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    }
+    .bg-introduction {
+        img {
+            width: auto;
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        .bg {
+            @media (min-width:768px) {
+                background-image: url('../assets/imgs/vector.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: 1px 1px;
+                transform: rotate(-30deg);
+            }
+            img {
+                @media (min-width: 768px) {
+                    transform: rotate(30deg);
+                }
+            }
+        }
+    }
+}

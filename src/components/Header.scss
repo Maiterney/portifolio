@@ -1,0 +1,35 @@
+header {
+    .header {
+        padding: 5% 10%;
+        align-items: end;
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .menu {
+                display: flex;
+                list-style: none;
+                justify-content: center;
+                margin: 0 65px 0 0;
+                li {
+                    padding: 0 15px;
+                    a {
+                        color: #FFF;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .contact {
+                a {
+                    color: #FFF;
+                    font-weight: 600;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
