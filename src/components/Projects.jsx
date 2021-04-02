@@ -1,6 +1,7 @@
 import Misec from '../assets/imgs/misecLogo.png'
 import Avezoo from '../assets/imgs/avezoo.png'
 import Ipetis from '../assets/imgs/ipetisLogo.png'
+import Portifolio from '../assets/imgs/logo.png'
 
 import './Projects.scss'
 import React from 'react'
@@ -12,6 +13,12 @@ const projects = props =>
             <h2>Projects</h2>
         </div>
         <div className="cards-projects">
+            <CardsProjects 
+                cardImg={ Portifolio } b 
+                titleProject="My portifolio" 
+                description="Apresentação do codigo do portifolio" 
+                codeProject="https://github.com/Maiterney/portifolio"
+            />
             <CardsProjects 
                 cardImg={ Misec } 
                 titleProject="Misec" 
