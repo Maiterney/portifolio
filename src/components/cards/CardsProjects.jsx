@@ -3,8 +3,7 @@ import React from 'react'
 import { GitHub, SitePage } from '../svg/Svg'
 
 
-
-export default props => 
+const cardProjects = props => 
     <div className="card">
         <div className="card-header">
             <span className="yellow"></span>
@@ -27,3 +26,5 @@ export default props =>
                 </a>
             </div>
     </div>
+
+export default cardProjects;

@@ -6,7 +6,7 @@ import './Projects.scss'
 import React from 'react'
 import CardsProjects from './cards/CardsProjects'
 
-export default props =>
+const projects = props =>
     <div className="projects" id="projects">
         <div className="title">
             <h2>Projects</h2>
@@ -16,22 +16,22 @@ export default props =>
                 cardImg={ Misec } 
                 titleProject="Misec" 
                 description="O Misec e um site que busca a transformação do setor de Engenharia e Construção" 
-                codeProject=""
+
                 siteProject="https://misec.org.br/"
             />
             <CardsProjects 
                 cardImg={ Avezoo } 
                 titleProject="Avezoo" 
                 description="Vendas de rações para aves" 
-                codeProject=""
                 siteProject="https://avezoo.com.br/"
             />
             <CardsProjects 
                 cardImg={ Ipetis } 
                 titleProject="Ipetis" 
                 description="O Marketplace das Petshops." 
-                codeProject=""
                 siteProject="https://ipetis.com.br/"
             />
         </div>
     </div>
+
+export default projects;

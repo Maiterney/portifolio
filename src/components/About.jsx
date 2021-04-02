@@ -2,7 +2,7 @@ import './About.scss'
 import React from 'react'
 import { CSSIcon, JSIcon, HTMLIcon, ReactIcon } from './svg/Svg'
 
-export default props=>
+const aboutus = props =>
     <div className="about-us" id="about">
         <div className="title">
             <h2>About us</h2>
@@ -35,3 +35,5 @@ export default props=>
            </div>
         </div>
     </div>
+
+export default aboutus;

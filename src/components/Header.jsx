@@ -3,7 +3,7 @@ import './Header.scss'
 import React from 'react'
 
 
-export default () => 
+const header = () => 
     <header>
         <div className="header">
             <div className="logo">
@@ -21,3 +21,5 @@ export default () =>
             </div>
         </div>
     </header>
+
+export default header;

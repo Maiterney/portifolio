@@ -2,7 +2,7 @@ import './Card.scss'
 import React from 'react'
 import Framework from './framework'
 
-export default props =>
+const cardStacks = props =>
     <div className="card-stacks">
         <div className="card-header">
             <img src={props.img} alt=""/>
@@ -16,3 +16,5 @@ export default props =>
             </ul>
         </div>
     </div>
+
+export default cardStacks;

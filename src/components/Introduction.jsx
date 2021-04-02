@@ -1,9 +1,8 @@
 import imgTop from '../assets/imgs/image-top.png'
-import vector from '../assets/imgs/vector.png'
 import './Introduction.scss'
 import React from 'react'
 
-export default props =>
+const introduction = props =>
     <div className="introduction">
         <div className="col-md-4">
             <h4>Desenvolvedor Frontend</h4>
@@ -23,3 +22,5 @@ export default props =>
             </div>
         </div>
     </div>
+
+export default introduction;

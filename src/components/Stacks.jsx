@@ -6,7 +6,7 @@ import './Stacks.scss'
 import React from 'react'
 import Card from './cards/Card'
 
-export default props => 
+const stacks = props => 
     <div className="stacks" id="stacks">
         <div className="title">
             <h2>Stacks</h2>
@@ -17,3 +17,5 @@ export default props =>
             <Card img={ SCSS } time="2 year and 6 months" projects="6 projects"/>
         </div>
     </div>
+
+export default stacks;

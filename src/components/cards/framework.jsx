@@ -1,7 +1,7 @@
 import React from 'react'
 import { CodeIcon, TimeIcon } from '../svg/Svg'
 
-export default props =>
+const frameworks = props =>
     <React.Fragment>
         <li>
             <span><TimeIcon /></span> <p>{props.timeFramework}</p>
@@ -10,3 +10,5 @@ export default props =>
             <span><CodeIcon /></span> <p>{props.projectsFramework}</p>
         </li>
     </React.Fragment>
+
+export default frameworks;
