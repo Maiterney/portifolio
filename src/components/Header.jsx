@@ -1,4 +1,4 @@
-import logo from '../assets/imgs/logo.png'
+import logo from '../assets/imgs/logo.svg'
 import './Header.scss'
 import React from 'react'
 

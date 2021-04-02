@@ -1,7 +1,7 @@
 import Misec from '../assets/imgs/misecLogo.png'
 import Avezoo from '../assets/imgs/avezoo.png'
 import Ipetis from '../assets/imgs/ipetisLogo.png'
-import Portifolio from '../assets/imgs/logo.png'
+import Portifolio from '../assets/imgs/logo.svg'
 
 import './Projects.scss'
 import React from 'react'
